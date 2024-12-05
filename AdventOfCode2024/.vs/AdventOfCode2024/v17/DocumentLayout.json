@@ -1,0 +1,115 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Code\\Advent Of Code\\2024\\AdventOfCode2024\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7859E48B-F7B0-4F6C-ABB7-1E34584E9628}|AdventOfCode2024.csproj|d:\\code\\advent of code\\2024\\adventofcode2024\\2.rednosedreports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7859E48B-F7B0-4F6C-ABB7-1E34584E9628}|AdventOfCode2024.csproj|solutionrelative:2.rednosedreports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C66F7D3-D424-47B4-A9B9-4F1AF13BA55E}|..\\AdventOfCode2024Test\\AdventOfCode2024Test.csproj|d:\\code\\advent of code\\2024\\adventofcode2024test\\2.rednosedreportstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7859E48B-F7B0-4F6C-ABB7-1E34584E9628}|AdventOfCode2024.csproj|d:\\code\\advent of code\\2024\\adventofcode2024\\1.historianhysteria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7859E48B-F7B0-4F6C-ABB7-1E34584E9628}|AdventOfCode2024.csproj|solutionrelative:1.historianhysteria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C66F7D3-D424-47B4-A9B9-4F1AF13BA55E}|..\\AdventOfCode2024Test\\AdventOfCode2024Test.csproj|d:\\code\\advent of code\\2024\\adventofcode2024test\\1.historianhysteriatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7859E48B-F7B0-4F6C-ABB7-1E34584E9628}|AdventOfCode2024.csproj|d:\\code\\advent of code\\2024\\adventofcode2024\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7859E48B-F7B0-4F6C-ABB7-1E34584E9628}|AdventOfCode2024.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "2.RedNosedReportsTests.cs",
+              "DocumentMoniker": "D:\\Code\\Advent Of Code\\2024\\AdventOfCode2024Test\\2.RedNosedReportsTests.cs",
+              "RelativeDocumentMoniker": "..\\AdventOfCode2024Test\\2.RedNosedReportsTests.cs",
+              "ToolTip": "D:\\Code\\Advent Of Code\\2024\\AdventOfCode2024Test\\2.RedNosedReportsTests.cs",
+              "RelativeToolTip": "..\\AdventOfCode2024Test\\2.RedNosedReportsTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T18:51:07.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "2.RedNosedReports.cs",
+              "DocumentMoniker": "D:\\Code\\Advent Of Code\\2024\\AdventOfCode2024\\2.RedNosedReports.cs",
+              "RelativeDocumentMoniker": "2.RedNosedReports.cs",
+              "ToolTip": "D:\\Code\\Advent Of Code\\2024\\AdventOfCode2024\\2.RedNosedReports.cs",
+              "RelativeToolTip": "2.RedNosedReports.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAIAhwFwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T18:50:13.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "1.HistorianHysteria.cs",
+              "DocumentMoniker": "D:\\Code\\Advent Of Code\\2024\\AdventOfCode2024\\1.HistorianHysteria.cs",
+              "RelativeDocumentMoniker": "1.HistorianHysteria.cs",
+              "ToolTip": "D:\\Code\\Advent Of Code\\2024\\AdventOfCode2024\\1.HistorianHysteria.cs",
+              "RelativeToolTip": "1.HistorianHysteria.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T17:05:00.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "1.HistorianHysteriaTest.cs",
+              "DocumentMoniker": "D:\\Code\\Advent Of Code\\2024\\AdventOfCode2024Test\\1.HistorianHysteriaTest.cs",
+              "RelativeDocumentMoniker": "..\\AdventOfCode2024Test\\1.HistorianHysteriaTest.cs",
+              "ToolTip": "D:\\Code\\Advent Of Code\\2024\\AdventOfCode2024Test\\1.HistorianHysteriaTest.cs",
+              "RelativeToolTip": "..\\AdventOfCode2024Test\\1.HistorianHysteriaTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T17:01:33.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Code\\Advent Of Code\\2024\\AdventOfCode2024\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Code\\Advent Of Code\\2024\\AdventOfCode2024\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T16:45:12.351Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
