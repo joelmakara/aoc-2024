@@ -45,3 +45,6 @@ packages/
 
 # Ignore DesignTimeBuild folder inside .vs (if it's within the .vs folder)
 .vs/*/
+*/.vs
+*/obj
+*/bin

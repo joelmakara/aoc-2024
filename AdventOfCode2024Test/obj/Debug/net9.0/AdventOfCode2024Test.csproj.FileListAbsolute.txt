@@ -103,3 +103,4 @@ D:\Code\Advent Of Code\2024\AdventOfCode2024Test\obj\Debug\net9.0\refint\AdventO
 D:\Code\Advent Of Code\2024\AdventOfCode2024Test\obj\Debug\net9.0\AdventOfCode2024Test.pdb
 D:\Code\Advent Of Code\2024\AdventOfCode2024Test\obj\Debug\net9.0\AdventOfCode2024Test.genruntimeconfig.cache
 D:\Code\Advent Of Code\2024\AdventOfCode2024Test\obj\Debug\net9.0\ref\AdventOfCode2024Test.dll
+D:\Code\Advent Of Code\2024\AdventOfCode2024Test\obj\Debug\net9.0\AdventOfCode2024Test.sourcelink.json

@@ -15,7 +15,9 @@ public class RedNosedReports
                                .Select(int.Parse)
                                .ToList();
 
-            if (IsReportSafe(levels))
+            var (isReportSafe, _) = IsReportSafe(levels);
+            
+            if (isReportSafe)
             {
                 safeReportCount++;
             }
@@ -47,72 +49,22 @@ public class RedNosedReports
 
     private bool IsReportSafeWithTolerance(List<int> levels)
     {
-        var isSafe = true;
-        var unsafeLevelCount = 0;
-        var isDescending = IsDescending(levels);
+        var (isSafe, unsafeIndex) = IsReportSafe(levels);
 
-        for (int i = 0; i < levels.Count - 1; i++)
+        if (!isSafe)
         {
-            var currentLevel = levels[i];
-            var nextLevel = levels[i + 1];
-            var diff = currentLevel - nextLevel;
-
-            if (diff == 0)
-            {
-                if (unsafeLevelCount == 0)
-                {
-                    i++;
-                    unsafeLevelCount++;
-                }
-                else
-                {
-                    isSafe = false;
-                    break;
-                }
-            }
-
-            if ((isDescending && (diff > 3 || currentLevel < nextLevel)) ||
-                (!isDescending && (diff < -3 || currentLevel > nextLevel)))
-            {
-                if (unsafeLevelCount == 0)
-                {
-                    i++;
-                    unsafeLevelCount++;
-                }
-                else
-                {
-                    isSafe = false;
-                    break;
-                }
-            }
-        }
+            levels.RemoveAt(unsafeIndex);
+            (isSafe,_) = IsReportSafe(levels);
+        }        
 
         return isSafe;
     }
 
-    private bool IsDescending(List<int> numbers)
-    {
-        var result = new List<bool>();
 
-        for (int i = 0; i < numbers.Count - 1; i++)
-        {
-            result.Add(numbers[i] > numbers[i + 1]);
-        }
-
-        return result.Count(x => x == true) > result.Count(x => x == false);
-    }
-
-    private bool IsMostlyDescending(List<int> numbers)
-    {
-        return numbers.Zip(numbers.Skip(1), (current, next) => current > next)
-                      .Count(isDescending => isDescending) > numbers.Count / 2;
-    }
-
-
-    private bool IsReportSafe(List<int> levels)
+    private (bool, int) IsReportSafe(List<int> levels)
     {
         var isSafe = true;
-        var unsafeLevelCount = 0;
+        var unsafeIndex = 0;
         var isDescending = levels[0] > levels[1];
 
         for (int i = 0; i < levels.Count - 1; i++)
@@ -124,6 +76,7 @@ public class RedNosedReports
             if (diff == 0)
             {
                 isSafe = false;
+                unsafeIndex = i+1;
                 break;
             }
 
@@ -131,10 +84,11 @@ public class RedNosedReports
                 (!isDescending && (diff < -3 || currentLevel > nextLevel)))
             {
                 isSafe = false;
+                unsafeIndex = i + 1;
                 break;
             }
         }
 
-        return isSafe;
+        return (isSafe, unsafeIndex) ;
     }
 }
