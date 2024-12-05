@@ -21,12 +21,12 @@ Thumbs.db
 *.log
 
 # Ignore bin and obj directories
-[Bb]in/
-[Dd]ebug*/
-[Dd]ebugPublic*/
-[Rr]elease*/
-[Rr]eleasePublic*/
-obj/
+*/[Bb]in/
+*/[Dd]ebug*/
+*/[Dd]ebugPublic*/
+*/[Rr]elease*/
+*/[Rr]eleasePublic*/
+*/obj/
 
 # Ignore ReSharper files
 _ReSharper*/
