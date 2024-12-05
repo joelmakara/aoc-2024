@@ -1,7 +1,7 @@
-
-#Ignore thumbnails created by Windows
+# Ignore thumbnails created by Windows
 Thumbs.db
-#Ignore files built by Visual Studio
+
+# Ignore files built by Visual Studio
 *.obj
 *.exe
 *.pdb
@@ -19,15 +19,29 @@ Thumbs.db
 *.cache
 *.ilk
 *.log
-[Bb]in
+
+# Ignore bin and obj directories
+[Bb]in/
 [Dd]ebug*/
-*.lib
-*.sbr
-obj/
+[Dd]ebugPublic*/
 [Rr]elease*/
+[Rr]eleasePublic*/
+obj/
+
+# Ignore ReSharper files
 _ReSharper*/
+
+# Ignore test results
 [Tt]est[Rr]esult*
+
+# Ignore Visual Studio folder (and its subdirectories)
 .vs/
+
+# Ignore JetBrains Rider files
 .idea/
-#Nuget packages folder
+
+# Ignore NuGet packages folder
 packages/
+
+# Ignore DesignTimeBuild folder inside .vs (if it's within the .vs folder)
+.vs/*/
